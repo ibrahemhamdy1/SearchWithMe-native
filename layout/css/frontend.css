@@ -1,0 +1,347 @@
+/*Start Main Rulez*/
+ body{
+ 	background-color:#f4f4f4;
+ 	font-size: 16;
+	height: 300px;
+
+ }
+ a{
+ 	
+ }
+
+
+ .carousel {
+    position: 100%;
+}
+ .carousel-inner > .item > a > img, .carousel-inner > .item > img {
+    
+    min-width: 1208px;
+min-height: 900px;
+max-width: 1350px;
+max-height: 910px;
+}
+.navbar-inverse .navbar-nav > li > a {
+   color: #2999fe;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: #151414;
+    background-color: transparent;
+}
+
+.navbar-inverse {
+    background-color: #fff;
+    border-color: #d7d8d84d;
+}
+/*item  */
+.item-margin{
+	margin-top: 10px;
+	margin-bottom: : 10px;
+}
+.thumbnail {
+	width: 262px;
+	height: 409px;
+	max-width: 262px;
+	min-height: 409px;
+}
+
+.img-responsive >img{
+	display: block;
+    max-width: 100%;
+    height: 219px;
+}
+.input-container{
+	position: relative;
+}
+.asterisk{
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    color: #2999fe;
+
+}
+/*for  the  newadd*/
+
+.main-form .asterisk{
+	font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    color: #d20707;
+}
+
+.nav-margin{
+	margin-top: 100px;
+}
+h1{
+
+font-size: 55px;
+margin: 40px 0;
+font-weight: bold;
+color: #2999fe; 
+
+}
+
+.nic-message{
+	padding: 10px;
+	background-color: #ffffff;
+	margin: 10px 0;
+    border-left:  5px solid #080; 
+}
+/*Start Bootstrap Edits*/
+
+
+.navbar{
+border-radius: 0;
+margin-bottom: 0;
+
+}
+.nav > li> a,
+.navbar-brand{
+	padding: 15px 12px;
+}
+.navbar-brand{
+font-size: 1em;
+
+}
+ .navbar-inverse .navbar-nav   > .open>a,
+ .navbar-inverse .navbar-nav   > .open>a:focus,
+ .navbar-inverse .navbar-nav   > .open>a:hover ,
+ .dropdown-menu{
+    background-color: #3498db;
+}
+.dropdown-menu{
+	min-width : 180px;
+	padding   : 0;
+	font-size : 1em ;
+	border: none;
+	border-radius: 0;
+
+}
+.dropdown-menu>li > a{
+	color:#fff;
+	padding: 10px 15px
+}
+.dropdown-menu>li > a:focus,
+.dropdown-menu>li > a:hover{
+	color:#fff;
+	background-color:#8e44ad; 
+
+
+}
+
+.form-control{
+	position: relative;
+}
+
+/*end Bootstrap Edits*/
+/*Start Header Page*/
+.upper-bar{
+	padding: 10px;
+	background-color:#fff;
+}
+.myimg{
+	width: 32px;
+	height: 32px;
+}
+
+.img{
+
+    max-height: 250px;
+    min-height: 250px;
+}
+/*end Header Edits*/
+
+
+
+/*Start Login page*/
+
+.login-page form,.the-errors{
+	max-width: 400px;
+	margin: auto;
+}
+
+.login-page form input{
+	margin-bottom: 10px;
+}
+.login-page [data-class="login"].selected {
+	color: #337AB7;
+}
+.login-page [data-class="signup"].selected {
+	color: #5cb85c;
+}
+.login-page h1{
+
+
+color:#c0c0c0;
+
+}
+.login-page h1 span{
+	cursor: pointer;
+} 
+.login-page .signup{
+	display: none;
+}
+.the-errors .msg{
+	padding: 10px;
+	text-align: left;
+	border-left: 5px solid #cd6858;
+	background-color: #fff;
+	margin-bottom: 8px;
+	border-right: 1px solid #e0e0e0;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	color: #919191;
+
+}
+.the-errors .error{
+	border-left: 5px solid #cd6858;
+}
+
+/*end Login page*/
+
+/*Start Categories Page*/
+.item-box{
+		max-height: 430px;
+    	min-height: 430px;
+    	overflow: auto;
+}
+
+.item-box .price-Tag{
+	background-color: #ffffff;
+    padding: 2px 10px;
+    position: absolute;
+    left: 20px;
+    top: 16px;
+    font-weight: bold;
+    color: #666;
+}
+.approve-status{
+ position: absolute;
+ top: 40px;
+ left:20px;
+ background-color:#b85a5a;
+ color: #fff;
+ padding: 3px 5px;
+}
+ .found-status{
+ position: absolute;
+ top: 40px;
+ left:20px;
+ background-color:#5ab85d;
+ color: #fff;
+ padding: 3px 5px;
+}
+.item-box.caption.p{
+	height: 44px;
+	max-height:44px;
+
+}
+/*End Categories Page*/
+
+/*Start profile Page*/
+.information.blocks{
+	margin: 20px 0 0 ;
+}
+.information ul{
+	padding: 0;
+	margin: 0;
+}
+.information ul li{
+	padding: 10px;
+}
+.information ul li:nth-child(odd){
+	background-color: #eee;
+}
+.information ul li span{
+display: inline-block;
+width: 120px;
+}
+.thumbnail .date{
+	text-align: right;
+	font-size: 13px;
+	color: #aaa;
+	font-weight: bold;
+}
+.item-box p {
+	height: 44px;
+    max-height: 44px;
+}
+.information .btn{
+	margin-top: 10px;
+}
+/*End profile Page*/
+
+/*Start Show  item Page*/
+ 
+/*for  the hole  item  page  item Page*/
+
+.itempage{
+
+	margin: 50px;
+}
+.item-info ul li{
+padding: 10px 0;
+}
+.item-info ul li:nth-child(odd){
+background-color: rgba(218, 218, 218, 0.25);
+}
+.item-info ul li span{
+	display: inline-block;
+	width: 120px;
+}
+
+.comment-box{
+	margin-bottom: 20px;
+}
+.comment-box img{
+	max-width: 100px;
+	margin-bottom: 10px;
+}
+
+.comment-box .lead{
+
+	background-color: #e0e0e0;
+	position: relative;
+	padding: 10px;
+margin-top: 25px;
+}
+.comment-box .lead:before{
+	content: "";
+	width: 0;
+	height: 0;
+	border-width: 15px;
+	border-style: solid;
+	border-color: transparent #e0e0e0 transparent transparent;
+	position: absolute;
+	left: -28px;
+	top: 10px;
+
+}
+/*End Show  item Page*/
+/*Start Our Custom*/
+
+.custom-hr{
+	border-top: 1px solid #aaa;
+
+}
+.tags-items a{
+	display: inline-block;
+	background-color: #e2e2e2;
+	padding: 2px 10px;
+	border-radius: 5px;
+	color: #666;
+	margin-right: 5px;
+
+}
+
+.add-comment h3{
+	margin: 0;
+}
+.add-comment textarea{
+	display: block;
+	margin-bottom: 10px;
+	width: 500px;
+	height: 120px;
+}

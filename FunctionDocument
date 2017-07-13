@@ -1,0 +1,5 @@
+=========================
+=====Funcation Document==
+=========================
+getAllFrom($field,$table,$where,$and=NULL,$orederField,$oredering)
+$where  =can  be mpty 

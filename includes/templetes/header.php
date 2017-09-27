@@ -9,10 +9,16 @@
 <link rel="stylesheet"  href="<?php echo $css; ?>font-awesome.min.css"/>
 <link rel="stylesheet"  href="<?php echo $css; ?>jquery-ui.css"/>
 <link rel="stylesheet"  href="<?php echo $css; ?>jquery.selectBoxIt.css"/>
+<script src="layout/js/jquery-3.1.1.min.js"></script>
+<script src="layout/js/jquery-ui.min.js"></script>
 
-
+<script src="layout/js/jquery.selectBoxIt.min.js"></script>
+<script src="layout/js/bootstrap.min.js"></script>
+<script src="layout/js/front.js"></script>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
 <link rel="stylesheet" href="<?php echo $css; ?>frontend.css"/> 
 <link rel="stylesheet" href="<?php echo $css; ?>style.css"/> 
+
 <title><?php   getTitel();?> </title>
 </head>
 <body> 
@@ -48,7 +54,7 @@
 
     <?php
     }else{
-      echo '<img  class="myimg img-circle"src="image.png" alt=""/>';
+      echo '<img  class="myimg img-circle"src="image.png" alt=""  max-hight="30px" max-wdith="30px"  style="height: 30px;width: 30px;"/>';
     }
         // end the image  part  the Catories
 ?>
